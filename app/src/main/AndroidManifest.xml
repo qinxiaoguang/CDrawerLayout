@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qxg.testcdrawerlayout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".samples.Main1Activity" />
+        <activity android:name=".samples.Main2Activity" />
+        <activity android:name=".samples.Main3Activity" />
+        <activity android:name=".samples.Main4Activity" />
+        <activity android:name=".samples.Main5Activity" />
+        <activity android:name=".samples.Main6Activity" />
+        <activity android:name=".samples.Main7Activity"></activity>
+    </application>
+
+</manifest>
