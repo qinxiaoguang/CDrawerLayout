@@ -49,6 +49,7 @@ drawerLayout.setStatusBarColor(R.color.colorPrimary)
 
 # 效果
 使用CDrawerLayout实现的一些效果：
+
 ![](http://www.qxgzone.com/images/custom.gif)
 ![](http://www.qxgzone.com/images/comproj.gif)
 
