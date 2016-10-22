@@ -13,6 +13,7 @@
 ```
 
 在MainActivity中获取到CDrawerLayout后，即可对其进行操作：
+
 `CDrawerLayout drawerLayout = (CDrawerLayout)findViewById(R.id.drawerlayout);`
 
 更换主界面的操作如下:
@@ -30,6 +31,8 @@
 自定义属性：
 * custome:该属性含义为，如果您想要把CDrawerLayout纯粹当作DrawerLayout来使用，就设置该值为true即可。
 * navigation:该属性表示，如果您不想要使用默认的抽屉布局，而是想要使用NavigationView，那么将该属性设置为true，并且在布局的CDrawerLayout中加上NavigationView即可。
+
+自定义属性是在xml布局中使用。
 
 示例代码：
 ```
