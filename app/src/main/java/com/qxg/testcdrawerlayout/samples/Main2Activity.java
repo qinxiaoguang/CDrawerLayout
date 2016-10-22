@@ -17,5 +17,6 @@ public class Main2Activity extends AppCompatActivity {
         drawerLayout.setCustomNavLayout(R.layout.tmp)
                 .setHomeLayout(R.layout.homelayout)
                 .commit();
+
     }
 }
